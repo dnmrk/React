@@ -6,6 +6,11 @@ import Modal from "./components/Modal/Modal";
 import Backdrop from "./components/Backdrop/Backdrop";
 import List from "./components/List/List";
 
+// alternative animation packages 
+// react-motion.js
+// react-move
+// react-router-transition
+
 class App extends Component {
   state = {
     modalIsOpen: false,
