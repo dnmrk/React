@@ -1,3 +1,6 @@
+// another package
+// npm i use-global-hook
+
 import { useState, useEffect } from 'react';
 
 let globalState = {};
