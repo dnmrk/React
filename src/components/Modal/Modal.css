@@ -21,6 +21,20 @@
   animation: closeModel 1s ease-out forwards;
 }
 
+.fade-slide-enter {
+}
+
+.fade-slide-enter-active {
+  animation: openModel 0.4s ease-out forwards;
+}
+
+.fade-slide-exit {
+}
+
+.fade-slide-exit-active {
+  animation: closeModel 1s ease-out forwards;
+}
+
 @keyframes openModel {
   0% {
     opacity: 0;
