@@ -42,3 +42,7 @@ let people: {
 }[];
 
 // Type inference
+let course = 'React - The Complege Guide';
+
+course = 1234;
+
