@@ -1,3 +1,5 @@
+// react hooks testing library
+
 import { render, screen } from '@testing-library/react';
 import Async from './Async';
 
@@ -7,7 +9,7 @@ describe('Async component', () => {
         window.fetch.mockResolvedValueOnce({
             json: async () => [{ id: 'p1', title: 'First post' }],
         });
-        
+
         render(<Async />);
 
         const listItemsElements = await screen.findAllByRole('listitem');
