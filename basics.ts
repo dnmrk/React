@@ -22,7 +22,6 @@ let hobbies: string[];
 
 hobbies = ["Sports", "Cooking"];
 
-
 // Type Alias
 type Person = {
   name: string;
@@ -46,3 +45,14 @@ let people: Person[];
 let course: string | number = "React - The Complege Guide";
 
 course = 1234;
+
+// Functions & types
+
+function add(a: number, b: number): string {
+  return a + b;
+}
+
+function print(value: any) {
+  console.log(value);
+  //return type void
+}
