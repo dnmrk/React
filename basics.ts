@@ -8,7 +8,7 @@ let age: number = 24;
 
 age = 12;
 
-let userName: string;
+let userName: string | string[];
 
 userName = "Max";
 
